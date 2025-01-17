@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-import gym
-import gym.spaces
+import gymnasium as gym
+import gymnasium.spaces
 import numpy as np
 from PIL import Image
 from copy import deepcopy
