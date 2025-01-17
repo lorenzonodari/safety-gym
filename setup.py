@@ -11,6 +11,7 @@ setup(
     name='safety_gym',
     packages=['safety_gym'],
     install_requires=[
+        'xmltodict',
         'gymnasium~=1.0.0',
         'mujoco_py==2.1.2.14',
         'numpy~=1.26.4',
